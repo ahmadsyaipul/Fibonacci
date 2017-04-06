@@ -15,8 +15,10 @@ public class Main {
     }
 
     private static void deret(int x){
+        int jumlah=0;
         for (int i = 1; i <= x; i++) {
-            System.out.print(fibbonaci(i)+" ");
+            jumlah+=(fibbonaci(i));
         }
+        System.out.println(jumlah);
     }
 }
